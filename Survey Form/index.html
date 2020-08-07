@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey From</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to fill out this survey.</p>
+    </header>
+    <form id="survey-form" action="">
+      <div class="form-group">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" class="form-control" name="name" id="name" class="form-control" placeholder="Enter your name here" required>
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">E-mail:</label>
+        <input type="email" class="form-control" name="email" id="email" class="form-control" placeholder="Enter your e-mail here" required>
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Age(optional):</label>
+        <input type="number" class="form-control" name="age" id="number" class="form-control" min="18" max="26"  placeholder="Enter your age here">
+      </div>
+      <div class="form-group">
+        <p>Which option best describes your current role?</p>
+        <select id="dropdown" name="roles" class="form-control" required>
+          <option disabled selected>Select current role</option>
+          <option value="student">Student</option>
+          <option value="job">Full Time Job</option>
+          <option value="learner">Full Time Learner</option>
+          <option value="nope">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>Do you code reguarly?</p>
+        <label>
+          <input type="radio" name="involvement" value="yes" class="input-radio" checked>
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="involvement" value="sometimes" class="input-radio">
+          Sometimes
+        </label>
+        <label>
+          <input type="radio" name="involvement" value="no" class="input-radio">
+          No
+        </label>
+      </div>
+      <div class="form-group">
+        <p>When is your time to code?</p>
+        <select id="time" name="time" class="form-control" required>
+          <option disabled selected>Select an option</option>
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+          <option value="night">Night</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>What type of developer are you? Or what sort of developer do you want to be?</p>
+        <label for="front-end"><input id="front-end" value="front-end" type="checkbox" name="type">Front-end</label>
+        <label for="back-end"><input id="back-end" value="back-end" type="checkbox" name="type">Back-end</label>
+        <label for="full-stack"><input id="fullstack" value="full-stack" type="checkbox" name="type">Full stack</label>
+        <label for="other"><input id="other" value="other" type="checkbox" name="type">Other</label>
+      </div>
+      <div class="form-group">
+        <p for="w3review">How can this survey be better?</p>
+        <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Write your suggestions here..."></textarea>
+      </div>
+      <div class="form-group">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
