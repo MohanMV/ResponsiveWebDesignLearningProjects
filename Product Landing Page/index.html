@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MTB</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!-- header and the nav bar is  located inside the header -->
+ 
+  <header id="header">
+    <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <figure class="navbar-brand d-flex align-items-center justify-content-start" id="img-div">
+          <img id="header-img" class="img-thumbnail" src="images/MTBLOGO.png" alt="MTB Logo">
+          <figcaption>Mo's MTB</figcaption>
+        </figure>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#subscription">Subscription</a>
+            </li>
+        </div>
+      </div>                        
+    </nav>
+  </header>
+
+  <!-- Main is where the about us and features are located in -->
+  <main>
+    <!-- this section is for the about section and the video -->
+    <section id="about" class="d-flex flex-column align-items-center justify-content-center">
+      <div class="container" id="about-text">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veritatis beatae, est suscipit fuga praesentium odit provident quam dolorum maxime reiciendis quisquam quis alias aliquam impedit magnam autem recusandae ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatem labore eligendi quae eveniet doloribus eius accusamus harum amet velit nam nobis, accusantium porro inventore laudantium, laborum quod, nostrum facilis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium, cum, consequuntur veritatis saepe voluptatibus modi, totam quis incidunt officia labore cumque eligendi ab dolores suscipit numquam obcaecati quaerat id.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, aspernatur neque explicabo porro aliquid sunt ratione ipsam, adipisci dicta dignissimos alias, quod vitae iusto. Magnam officiis deserunt vitae tempore magni!Logo</p>
+      </div>
+      <div class="container p-3 mb-2 bg-dark text-white"  id="about-video">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/NfLVVJOuY5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+    
+
+    <!-- this section is for the features -->
+
+    <section id="features" class="d-flex flex-column align-items-center justify-content-start">
+      <div id="features-text" class="container p-3 mb-2 bg-dark text-light">
+        <h1>Features</h1>
+        <div class="feat-items row justify-content-center align-items-center">
+          <div class="container">
+            <i class="fa fa-bicycle fa-4x"></i>
+          </div>
+          <h4>Quality Bicycle Equipments & Bicycles</h4>
+        </div>
+        <div class="feat-items row justify-content-center align-items-center">
+          <div class="container">
+            <i class="fa fa-truck fa-4x"></i>
+          </div>
+          <h4>Next Day Delivery</h4>
+        </div>
+        <div class="feat-items row justify-content-center align-items-center">
+          <div class="container">
+            <i class="fa fa-clock-o fa-4x"></i>
+          </div>
+          <h4>24/7 Customer Service</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- this section is for the pricing -->
+    <section id="pricing" class="">
+      <div id="pricing-div" class="container grid p-3 mb-2 bg-dark text-light">
+        <h1 class="row p-4 justify-content-center">Pricing</h1>
+        <div class="row justify-content-around">
+          <div class="shadow p-3 mb-5 bg-white rounded text-dark">
+            <div class="card text-center">
+              <h3 class="">Monthly</h3>
+              <h6>£<span class="font-weight-bold">400</span>/mth</h6>
+              <hr>
+              <div class="container text-left">
+                <p>1 Secondhand Bike For 50% of Price</p>
+                <p>30% Discount On All Products</p>
+                <p>No Warranty</p>
+              </div>
+            </div>
+          </div>
+          <div class="shadow p-3 mb-5 bg-white rounded text-dark">
+            <div class="card text-center">
+              <h3 class="">6 Months</h3>
+              <h6>£<span class="font-weight-bold">370</span>/mth</h6>
+              <hr>
+              <div class="container text-left">
+                <p>New MTB Bike, Low Spec</p>
+                <p>10% Discount On Bike Accessories</p>
+                <p>2-Year Warranty</p>
+              </div>
+            </div>
+          </div>
+          <div class="shadow p-3 mb-5 bg-white rounded text-dark">
+            <div class="card text-center">
+              <h3>Yearly</h3>
+              <h6>£<span class="font-weight-bold">250</span>/mth</h6>
+              <hr>
+              <div class="container text-left">
+                <p>Latest MTB Bike, Full High Spec. [ 1 every year ]</p>
+                <p>50% Discount On All Products</p>
+                <p>Lifetime Warranty</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscription -->
+    <section id="subscription" class="section">
+      <div id="pricing-div" class="container grid p-3 mb-2 bg-dark text-light">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-group text-center align-items-center justify-content-center">
+            <label for="exampleInputEmail1">Subscribe To Our Newsletter</label>
+            <div class="container">
+              <input type="email" id="email" class="form-control" name="email" placeholder="Enter email here..." required>
+            </div>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="text-center">
+            <input id="submit" type="submit" class="btn btn-primary" value="Subscribe!">
+          </div>
+        </form> 
+      </div>
+    </section>
+
+    <footer id="footer" class="container p-3 mb-0 bg-secondary">
+      <div class="container">
+        <ul class="d-flex justify-content-end">
+          <li><a class="text-white" href="#">Privacy</a></li>
+          <li><a class="text-white" href="#">Terms</a></li>
+          <li><a class="text-white" href="#">Contact</a></li>
+        </ul>
+        <span class="d-flex justify-content-end text-light">&copy; 2020 MoMTB.com</span>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
