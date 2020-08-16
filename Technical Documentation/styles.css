@@ -1,0 +1,60 @@
+html,body {
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding:10px;
+}
+
+/* Sidebar */
+
+.sidebar-container {
+  height: 100%;
+  position: fixed;
+  max-width: 270px;
+  background-color: #111;
+}
+
+.sidebar-header {
+  position: relative;
+  padding: 15px;
+}
+
+.sidebar {
+  height: 82%;
+  position: fixed;
+  overflow-y:hidden;
+  width: 270px;
+  padding:10px;
+}
+header hr{
+  border:1px solid blanchedalmond;
+}
+
+nav a {
+  font-family: 'Fira Sans', sans-serif; ;
+  color: blanchedalmond;
+  font-size: larger;
+}
+
+/* Content page */
+
+.content-container {
+  height:100%;
+  overflow:auto;
+  position: relative;
+  margin-left: 270px;
+  padding: 15px 0 10px 20px;
+}
+
+
+#main-doc p {
+  font-size: large;
+  line-height: normal;
+}
+

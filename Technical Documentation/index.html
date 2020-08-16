@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Bootstrap Doc</title>
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="wrapper">
+    <div class="sidebar-container bg-info text-light">
+      <nav id="navbar" class="">
+        <header class="sidebar-header">
+          <h2>Bootstrap Documentation</h2>
+          <hr>
+        </header>
+        <ul id="list" class="sidebar">
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#Flex_&_Grid">Flex & Grid</a></li>
+          <li><a class="nav-link" href="#Sizing">Sizing</a></li>
+          <li><a class="nav-link" href="#Spacing">Spacing</a></li>
+          <li><a class="nav-link" href="#Shadows">Shadows</a></li>
+          <li><a class="nav-link" href="#Colors">Colors</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main id="main-doc" class="content-container">
+      <section class="main-section" id="Introduction">
+        <header>
+          <h1>Introduction</h1>
+        </header>
+        <div class="section-content container-fluid p-3 m-2 bg-light text-dark">
+          <p>Bootstrap is a popular CSS framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.</p>
+          <p>It is open-source and free top use, yet features numerous HTML and CSS templetes for UI interface elements such as buttons and forms.</p>
+        </div>
+      </section>
+      <section class="main-section" id="Flex_&_Grid" >
+        <header>
+          <h1>Flex & Grid</h1>
+        </header>
+        <div class="section-content container-fluid p-3 m-2 bg-light text-dark">
+          <h2>Flex</h2>
+          <p>Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities.</p>
+          <li><code>class="d-flex p-2 bd-highlight"</code></li>
+          <li><code>flex-row</code></li>
+          <h2>Grid</h2>
+          <p>Build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.</p>
+          <li><code>col-</code></li>
+          <li><code>row-</code></li>
+        </div>
+      </section>
+      <section class="main-section" id="Sizing">
+        <header>
+          <h1>Sizing</h1>
+        </header>
+        <div class="section-content container-fluid p-3 m-2 bg-light text-dark">
+          <h4>Easily make an element as wide or as tall (relative to its parent) with Bootstrap's width and height utilities.</h4>
+          <p>Width 25%, 50%, 75% and 100%</p>
+          <li><code>class="w-25 p-3" style="background-color: #eee;"</code></li>
+          <li><code>class="w-50 p-3" style="background-color: #eee;"</code></li>
+          <li><code>class="w-75 p-3" style="background-color: #eee;"</code></li>
+          <li><code>class="w-100 p-3" style="background-color: #eee;"</code></li>
+
+        </div>
+      </section>
+      <section class="main-section" id="Spacing" >
+        <header>
+          <h1>Spacing</h1>
+        </header>
+        <div class="section-content container-fluid p-3 m-2 bg-light text-dark">
+          <h4>Bootstrap includes a wide range of shorthand responsive margin and padding utility classes to modify an element’s appearance.</h4>
+          <p>Assign responsive-friendly margin or padding values to an element or a subset of its sides with shorthand classes.</p>
+          <p>Includes support for individual properties, all properties, and vertical and horizontal properties.</p>
+          <p>Classes are built from a default Sass map ranging from .25rem to 3rem.</p>
+          <li><code>m - for classes that set margin</code></li>
+          <li><code>p - for classes that set padding</code></li>
+        </div>
+      </section>
+      <section class="main-section" id="Shadows">
+        <header>
+          <h1>Shadows</h1>
+        </header>
+        <div class="section-content container-fluid p-3 m-2 bg-light text-dark">
+          <h4>Add or remove shadows to elements with box-shadow utilities.</h4>
+          <p>While shadows on components are disabled by default in Bootstrap and can be enabled via $enable-shadows, you can also quickly add or remove a shadow with our box-shadow utility classes.</p>
+          <p>Includes support for .shadow-none and three default sizes (which have associated variables to match).</p>
+          <li><code>class="shadow-none p-3 mb-5 bg-light rounded"</code></li>
+          <li><code>class="shadow-sm p-3 mb-5 bg-white rounded"</code></li>
+          <li><code>class="shadow p-3 mb-5 bg-white rounded"</code></li>
+          <li><code>class="shadow-lg p-3 mb-5 bg-white rounded"</code></li>
+        </div>
+      </section>
+      <section class="main-section" id="Colors">
+        <header>
+          <h1>Colors</h1>
+        </header>
+        <div class="section-content container-fluid p-3 m-2 bg-light text-dark">
+          <p>Convey meaning through color with a handful of color utility classes.</p>
+          <p>Includes support for styling links with hover states, too.</p>
+          <li><code>class="text-primary"</code></li>
+          <li><code>class="text-secondary"</code></li>
+          <li><code>class="text-success"</code></li>
+          <li><code>class="text-light bg-dark"</code></li>
+          <p>Contextual text classes also work well on anchors with the provided hover and focus states.</p>
+          <p>Note that the .text-white and .text-muted class has no link styling.</p>
+          <li><code>href="#" class="text-primary"</code></li>
+          <li><code>href="#" class="text-secondary"</code></li>
+          <li><code>href="#" class="text-success"</code></li>
+          <li><code>href="#" class="text-danger"</code></li>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
